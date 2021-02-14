@@ -1,6 +1,6 @@
 import React from "react";
-import Container from "../components/Container";
-import Row from "../components/Row";
+import Container from "../Container";
+import Row from "../Row";
 // import Col from "../components/Col";
 
 function ContactForm() {

@@ -34,15 +34,17 @@ function Navbar() {
 
             <a
                 className="flex-sm-fill text-sm-center nav-link resume"
-                href={require("../Data/Paul-Besliu-Resume.pdf")}
+
+                href="../../assets/documents/Paul-Besliu-Resume.pdf"
                 //   onClick={() => window.open("../Data/Paul-Besliu-Resume.pdf")}
                 //   href={Resume}
                 // onClick={() => window.open(Resume)}
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+            >
 
                 <img
-                    src={require("../Data/paulbesliu.jpg")}
+                    src="../../assets/images/paulbesliu.jpg"
                     alt="resume"
                     height="28"
                     width="28"
@@ -58,7 +60,7 @@ function Navbar() {
                 rel="noopener noreferrer">
 
                 <img
-                    src={require("../Data/GitHub-icon.png")}
+                    src="../../assets/images/GitHub-icon.png"
                     alt="GitHub"
                     height="25"
                     width="25"
@@ -74,7 +76,7 @@ function Navbar() {
                 rel="noopener noreferrer">
 
                 <img
-                    src={require("../Data/LinkedIn-icon.png")}
+                    src="../../assets/images/LinkedIn-icon.png"
                     alt="Linkedin"
                     height="24"
                     width="29"

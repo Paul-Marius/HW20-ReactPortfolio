@@ -1,7 +1,7 @@
 import React from "react";
-import Container from "../components/Container";
-import Row from "../components/Row";
-import Col from "../components/Col";
+import Container from "../Container";
+import Row from "../Row";
+import Col from "../Col";
 
 function About() {
     return (
@@ -14,7 +14,7 @@ function About() {
                             <Col size="sm-12">
                                 <img
                                     className="img-fluid profile-pic float-left"
-                                    src={require("../components/Data/paulbesliu.jpg")}
+                                    src="../../assets/images/paulbesliu.jpg"
                                     alt="Me!"
                                 />
                                 <div className="bio">

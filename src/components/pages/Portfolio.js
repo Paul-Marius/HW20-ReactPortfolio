@@ -1,7 +1,7 @@
 import React from "react";
-import Container from "../components/Container";
-import Row from "../components/Row";
-import Project from "../components/Projects";
+import Container from "../Container";
+import Row from "../Row";
+import Project from "../Projects";
 
 function Portfolio() {
     return (
@@ -13,7 +13,7 @@ function Portfolio() {
                         <Row>
                             <Project
                                 name="Cantina Cart"
-                                imgPath={require("../components/Data/cantinacart.png")}
+                                imgPath="../../assets/images/cantinacart.png"
                                 linkDeployed=""
                                 linkGithub="https://github.com/kaiwarren12/CantinaCart"
                             />
@@ -21,7 +21,7 @@ function Portfolio() {
                         <Row>
                             <Project
                                 name="GarageExchange"
-                                imgPath={require("../components/Data/garageexchange.png")}
+                                imgPath="../../assets/images/garageexchange.png"
                                 linkDeployed="https://frozen-earth-11241.herokuapp.com/"
                                 linkGithub="https://github.com/samrod777/GarageExchange"
                             />
